@@ -14,8 +14,7 @@ body {
 .text-container {
   white-space: pre-line;
   font-size: 21px;
-  transform: scale(2); /* 2倍に拡大表示 */
-  transform-origin: top left;
+  image-rendering: pixelated;
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: auto;
   font-smooth: never;
