@@ -4,9 +4,17 @@
   <meta charset="UTF-8">
   <title>フォント表示</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <div class="text-container">
+  <div class="text-container" id="password-container">
+    パスワードを入力してください：<br>
+    <input type="password" id="password-input">
+    <button onclick="checkPassword()">表示</button>
+    <p id="error-message" style="color: red;"></p>
+  </div>
+
+  <div class="text-container" id="protected-text" style="display: none;">
 
 
 
