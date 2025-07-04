@@ -5,17 +5,14 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 40px;
   background-color: black;
   color: white;
   font-family: 'JF Dot Shinonome Gothic 14', monospace;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
 }
 
 .text-container {
   white-space: pre-line;
   font-size: 16px;
+  text-align: left;
 }
