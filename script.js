@@ -1,5 +1,5 @@
 function checkPassword() {
-  const correctPassword = "delta123";
+  const correctPassword = "43-237-280-29170";
   const input = document.getElementById("password-input").value;
   const error = document.getElementById("error-message");
 
