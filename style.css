@@ -13,6 +13,12 @@ body {
 
 .text-container {
   white-space: pre-line;
-  font-size: 16px;
+  font-size: 21px;
+  transform: scale(2); /* 2倍に拡大表示 */
+  transform-origin: top left;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: auto;
+  font-smooth: never;
   text-align: left;
+  margin: 8px 0;
 }
